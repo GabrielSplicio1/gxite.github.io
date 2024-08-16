@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Social</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>G-Social</h1>
+            <nav>
+                <ul>
+                    <li><a href="serviso.html">Serviços</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Registrar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h2>Bem-vindo ao G-Social</h2>
+            <p>Seu parceiro em Marketing de Mídias Sociais</p>
+            <a href="#services" class="btn">Nossos Serviços</a>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="service">
+                <h3>Gestão de Redes Sociais</h3>
+                <p>Gerenciamos suas contas de redes sociais para aumentar seu engajamento e alcançar mais público.</p>
+            </div>
+            <div class="service">
+                <h3>Publicidade em Redes Sociais</h3>
+                <p>Criamos e gerenciamos campanhas pagas para promover seus produtos e serviços.</p>
+            </div>
+            <div class="service">
+                <h3>Consultoria de Estratégia</h3>
+                <p>Oferecemos conselhos sobre como utilizar melhor as redes sociais para atingir seus objetivos de negócios.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>G-Social é uma agência de marketing de mídias sociais dedicada a ajudar empresas a crescerem online. Nossa equipe é composta por especialistas em redes sociais que sabem como gerar resultados.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 G-Social. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Structure -->
+<div id="service-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title">Título do Serviço</h2>
+        <p id="modal-description">Descrição do Serviço.</p>
+        <button id="buy-btn" class="btn">Comprar</button>
+    </div>
+</div>
+    
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
